@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AEVUM — Vehículos eléctricos de lujo. El futuro del automóvil.">
+<title>AEVUM — Drive the Future</title>
+
+<meta name="keywords" content="AEVUM, coches eléctricos, luxury EV, vehículos eléctricos premium, electric sports cars">
+<meta name="author" content="AEVUM">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="AEVUM — Drive the Future">
+<meta property="og:description" content="Vehículos eléctricos de lujo con diseño futurista y tecnología avanzada.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/hero-bg.png">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://aevum.example.com/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="lang-es">
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">AE<span>V</span>UM</a>
+  <ul class="nav-links">
+    <li><a href="#modelos" data-lang-inline="es">Modelos</a><a href="#modelos" data-lang-inline="en">Models</a></li>
+    <li><a href="#experiencia" data-lang-inline="es">Experiencia</a><a href="#experiencia" data-lang-inline="en">Experience</a></li>
+    <li><a href="#reserva" data-lang-inline="es">Reservar</a><a href="#reserva" data-lang-inline="en">Reserve</a></li>
+  </ul>
+  <div class="nav-lang">
+    <button class="lang-btn active" onclick="setLang('es')">ES</button>
+    <span class="lang-sep">|</span>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow" data-lang="es">Vehículos Eléctricos de Lujo</p>
+    <p class="hero-eyebrow" data-lang="en">Luxury Electric Vehicles</p>
+    <h1 class="hero-title">Drive the<br><em>Future</em></h1>
+    <p class="hero-sub" data-lang="es">Ingeniería de precisión. Diseño sin concesiones. El mañana comienza hoy.</p>
+    <p class="hero-sub" data-lang="en">Precision engineering. Uncompromising design. Tomorrow begins today.</p>
+    <div class="hero-ctas">
+      <a href="#modelos" class="btn-primary" data-lang-inline="es">Descubrir modelos</a>
+      <a href="#modelos" class="btn-primary" data-lang-inline="en">Discover models</a>
+      <a href="#reserva" class="btn-outline" data-lang-inline="es">Reservar ahora</a>
+      <a href="#reserva" class="btn-outline" data-lang-inline="en">Reserve now</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span data-lang-inline="es">Desplazar</span>
+    <span data-lang-inline="en">Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="stat-block reveal">
+    <div class="stat-num">720<span>km</span></div>
+    <div class="stat-desc" data-lang-inline="es">Autonomía máxima</div>
+    <div class="stat-desc" data-lang-inline="en">Maximum range</div>
+  </div>
+  <div class="stat-block reveal reveal-delay-1">
+    <div class="stat-num">2.8<span>s</span></div>
+    <div class="stat-desc" data-lang-inline="es">0 a 100 km/h</div>
+    <div class="stat-desc" data-lang-inline="en">0 to 100 km/h</div>
+  </div>
+  <div class="stat-block reveal reveal-delay-2">
+    <div class="stat-num">312<span>kW</span></div>
+    <div class="stat-desc" data-lang-inline="es">Potencia máxima</div>
+    <div class="stat-desc" data-lang-inline="en">Peak power</div>
+  </div>
+  <div class="stat-block reveal reveal-delay-3">
+    <div class="stat-num">22<span>min</span></div>
+    <div class="stat-desc" data-lang-inline="es">Carga al 80%</div>
+    <div class="stat-desc" data-lang-inline="en">Charge to 80%</div>
+  </div>
+</div>
+
+<!-- MODELS -->
+<section class="models" id="modelos">
+  <div class="models-header reveal">
+    <p class="section-label" data-lang-inline="es">Nuestra gama</p>
+    <p class="section-label" data-lang-inline="en">Our lineup</p>
+    <h2 class="section-title" data-lang="es">Tres visiones del<br><em>movimiento perfecto</em></h2>
+    <h2 class="section-title" data-lang="en">Three visions of<br><em>perfect motion</em></h2>
+    <p class="section-sub" data-lang="es">Cada modelo AEVUM es una declaración de intenciones: rendimiento sin compromiso, lujo sin exceso.</p>
+    <p class="section-sub" data-lang="en">Every AEVUM model is a statement of intent: performance without compromise, luxury without excess.</p>
+  </div>
+  <div class="models-grid">
+
+    <!-- APEX -->
+    <div class="model-card reveal">
+      <div class="model-img" style="background: url('assets/images/model-apex.png') center/cover; background-color: #000;">
+        
+        <div class="model-img-overlay"></div>
+        <div class="model-badge" data-lang-inline="es">Berlina</div>
+        <div class="model-badge" data-lang-inline="en">Sedan</div>
+      </div>
+      <div class="model-info">
+        <h3 class="model-name">APEX</h3>
+        <p class="model-type" data-lang-inline="es">Berlina Eléctrica</p>
+        <p class="model-type" data-lang-inline="en">Electric Sedan</p>
+        <div class="model-specs">
+          <div class="spec-item">
+            <div class="spec-val">640<span class="spec-unit">km</span></div>
+            <div class="spec-label" data-lang-inline="es">Autonomía</div>
+            <div class="spec-label" data-lang-inline="en">Range</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-val">3.2<span class="spec-unit">s</span></div>
+            <div class="spec-label">0–100</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-val">270<span class="spec-unit">kW</span></div>
+            <div class="spec-label" data-lang-inline="es">Potencia</div>
+            <div class="spec-label" data-lang-inline="en">Power</div>
+          </div>
+        </div>
+        <p class="model-price">
+          <span data-lang-inline="es">Desde</span>
+          <span data-lang-inline="en">From</span>
+          <strong> 78.900 €</strong>
+        </p>
+        <a href="#reserva" class="model-cta">
+          <span data-lang-inline="es">Configurar → </span>
+          <span data-lang-inline="en">Configure → </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- VEGA -->
+    <div class="model-card reveal reveal-delay-1" style="border-color: rgba(201,168,76,0.2);">
+      <div class="model-img" style="background: url('assets/images/model-vega.png') center/cover; background-color: #000;">
+        
+        <div class="model-img-overlay"></div>
+        <div class="model-badge" style="background: var(--white); color: var(--black);" data-lang-inline="es">Más popular</div>
+        <div class="model-badge" style="background: var(--white); color: var(--black);" data-lang-inline="en">Most popular</div>
+      </div>
+      <div class="model-info">
+        <h3 class="model-name">VEGA</h3>
+        <p class="model-type" data-lang-inline="es">SUV Eléctrico</p>
+        <p class="model-type" data-lang-inline="en">Electric SUV</p>
+        <div class="model-specs">
+          <div class="spec-item">
+            <div class="spec-val">720<span class="spec-unit">km</span></div>
+            <div class="spec-label" data-lang-inline="es">Autonomía</div>
+            <div class="spec-label" data-lang-inline="en">Range</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-val">2.8<span class="spec-unit">s</span></div>
+            <div class="spec-label">0–100</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-val">312<span class="spec-unit">kW</span></div>
+            <div class="spec-label" data-lang-inline="es">Potencia</div>
+            <div class="spec-label" data-lang-inline="en">Power</div>
+          </div>
+        </div>
+        <p class="model-price">
+          <span data-lang-inline="es">Desde</span>
+          <span data-lang-inline="en">From</span>
+          <strong> 96.500 €</strong>
+        </p>
+        <a href="#reserva" class="model-cta">
+          <span data-lang-inline="es">Configurar → </span>
+          <span data-lang-inline="en">Configure → </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- SOL -->
+    <div class="model-card reveal reveal-delay-2">
+      <div class="model-img" style="background: url('assets/images/model-sol.png') center/cover; background-color: #000;">
+        
+        <div class="model-img-overlay"></div>
+        <div class="model-badge" data-lang-inline="es">Sport</div>
+        <div class="model-badge" data-lang-inline="en">Sport</div>
+      </div>
+      <div class="model-info">
+        <h3 class="model-name">SOL</h3>
+        <p class="model-type" data-lang-inline="es">Coupé Deportivo</p>
+        <p class="model-type" data-lang-inline="en">Sport Coupé</p>
+        <div class="model-specs">
+          <div class="spec-item">
+            <div class="spec-val">510<span class="spec-unit">km</span></div>
+            <div class="spec-label" data-lang-inline="es">Autonomía</div>
+            <div class="spec-label" data-lang-inline="en">Range</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-val">2.1<span class="spec-unit">s</span></div>
+            <div class="spec-label">0–100</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-val">430<span class="spec-unit">kW</span></div>
+            <div class="spec-label" data-lang-inline="es">Potencia</div>
+            <div class="spec-label" data-lang-inline="en">Power</div>
+          </div>
+        </div>
+        <p class="model-price">
+          <span data-lang-inline="es">Desde</span>
+          <span data-lang-inline="en">From</span>
+          <strong> 134.000 €</strong>
+        </p>
+        <a href="#reserva" class="model-cta">
+          <span data-lang-inline="es">Configurar → </span>
+          <span data-lang-inline="en">Configure → </span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience" id="experiencia">
+  <div class="exp-visual">
+    <div class="exp-visual-overlay"></div>
+  </div>
+  <div class="exp-content">
+    <div class="exp-inner reveal">
+      <p class="section-label" data-lang-inline="es">El interior</p>
+      <p class="section-label" data-lang-inline="en">The interior</p>
+      <h2 class="section-title" data-lang="es">Diseñado para<br><em>quienes exigen</em><br>lo extraordinario</h2>
+      <h2 class="section-title" data-lang="en">Designed for<br><em>those who demand</em><br>the extraordinary</h2>
+      <div class="gold-line"></div>
+      <p class="section-sub" data-lang="es">Cada detalle del habitáculo AEVUM es una conversación entre artesanía humana y tecnología de vanguardia.</p>
+      <p class="section-sub" data-lang="en">Every detail of the AEVUM cabin is a dialogue between human craftsmanship and cutting-edge technology.</p>
+      <div class="exp-features">
+        <div class="exp-feature">
+          <div class="exp-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg>
+          </div>
+          <div>
+            <p class="exp-feat-title" data-lang-inline="es">Pantalla panorámica 32"</p>
+            <p class="exp-feat-title" data-lang-inline="en">32" Panoramic display</p>
+            <p class="exp-feat-desc" data-lang-inline="es">Panel OLED curvo con resolución 4K y respuesta táctil háptica de precisión milimétrica.</p>
+            <p class="exp-feat-desc" data-lang-inline="en">Curved OLED panel with 4K resolution and millimeter-precision haptic touch response.</p>
+          </div>
+        </div>
+        <div class="exp-feature">
+          <div class="exp-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.2"><path d="M12 18.5A2.5 2.5 0 0 1 9.5 21A2.5 2.5 0 0 1 7 18.5v-12A2.5 2.5 0 0 1 9.5 4A2.5 2.5 0 0 1 12 6.5m0 12A2.5 2.5 0 0 0 14.5 21A2.5 2.5 0 0 0 17 18.5v-12A2.5 2.5 0 0 0 14.5 4A2.5 2.5 0 0 0 12 6.5m0 0v12"/></svg>
+          </div>
+          <div>
+            <p class="exp-feat-title" data-lang-inline="es">Sonido AEVUM Signature</p>
+            <p class="exp-feat-title" data-lang-inline="en">AEVUM Signature Sound</p>
+            <p class="exp-feat-desc" data-lang-inline="es">23 altavoces de alta fidelidad con calibración acústica activa por zona de escucha.</p>
+            <p class="exp-feat-desc" data-lang-inline="en">23 high-fidelity speakers with active acoustic calibration per listening zone.</p>
+          </div>
+        </div>
+        <div class="exp-feature">
+          <div class="exp-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <p class="exp-feat-title" data-lang-inline="es">Piloto autónomo Nivel 3</p>
+            <p class="exp-feat-title" data-lang-inline="en">Level 3 autonomous driving</p>
+            <p class="exp-feat-desc" data-lang-inline="es">Sistema de conducción asistida certificado para autopista en toda la UE.</p>
+            <p class="exp-feat-desc" data-lang-inline="en">Assisted driving system certified for motorway use across the EU.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONFIGURATOR TEASER -->
+<section class="config-section">
+  <div class="config-bg"></div>
+  <div class="config-content reveal">
+    <p class="section-label" data-lang-inline="es">Configura el tuyo</p>
+    <p class="section-label" data-lang-inline="en">Configure yours</p>
+    <h2 class="section-title" data-lang="es">Tu AEVUM.<br><em>Sin compromisos.</em></h2>
+    <h2 class="section-title" data-lang="en">Your AEVUM.<br><em>No compromises.</em></h2>
+    <div class="gold-line" style="margin: 32px auto;"></div>
+    <p class="section-sub" data-lang="es" style="margin: 0 auto 48px;">Elige color, interior, acabados y tecnología. Cada unidad se construye a medida en nuestra planta de Valencia.</p>
+    <p class="section-sub" data-lang="en" style="margin: 0 auto 48px;">Choose color, interior, finishes and technology. Each unit is custom-built at our Valencia plant.</p>
+    <a href="#reserva" class="btn-primary" data-lang-inline="es">Iniciar configuración →</a>
+    <a href="#reserva" class="btn-primary" data-lang-inline="en">Start configuration →</a>
+    <p class="config-price-note" data-lang-inline="es">Entrega estimada: 4–6 meses · Depósito de reserva: 2.000 €</p>
+    <p class="config-price-note" data-lang-inline="en">Estimated delivery: 4–6 months · Reservation deposit: €2,000</p>
+  </div>
+</section>
+
+<!-- RESERVE / CONTACT -->
+<section class="reserve" id="reserva">
+  <div class="reserve-left reveal">
+    <p class="section-label" data-lang-inline="es">Reserva tu AEVUM</p>
+    <p class="section-label" data-lang-inline="en">Reserve your AEVUM</p>
+    <h2 class="section-title" data-lang="es">El primer paso<br>hacia tu <em>futuro</em></h2>
+    <h2 class="section-title" data-lang="en">The first step<br>toward your <em>future</em></h2>
+    <div class="gold-line"></div>
+    <p class="section-sub" data-lang="es">Reserva tu AEVUM con un depósito totalmente reembolsable de 2.000 €. Un asesor personal te contactará en 24h.</p>
+    <p class="section-sub" data-lang="en">Reserve your AEVUM with a fully refundable €2,000 deposit. A personal advisor will contact you within 24h.</p>
+    <div style="margin-top: 40px; display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="width: 32px; height: 1px; background: var(--gold);"></div>
+        <span style="font-size: 13px; color: var(--white-dim);" data-lang-inline="es">Depósito 100% reembolsable</span>
+        <span style="font-size: 13px; color: var(--white-dim);" data-lang-inline="en">100% refundable deposit</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="width: 32px; height: 1px; background: var(--gold);"></div>
+        <span style="font-size: 13px; color: var(--white-dim);" data-lang-inline="es">Asesor personal asignado</span>
+        <span style="font-size: 13px; color: var(--white-dim);" data-lang-inline="en">Personal advisor assigned</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="width: 32px; height: 1px; background: var(--gold);"></div>
+        <span style="font-size: 13px; color: var(--white-dim);" data-lang-inline="es">Test drive prioritario</span>
+        <span style="font-size: 13px; color: var(--white-dim);" data-lang-inline="en">Priority test drive</span>
+      </div>
+    </div>
+  </div>
+  <div class="reserve-right reveal reveal-delay-2">
+    <div class="reserve-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" data-lang-inline="es">Nombre</label>
+          <label class="form-label" data-lang-inline="en">First name</label>
+          <input type="text" class="form-input" placeholder="Javier">
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-lang-inline="es">Apellidos</label>
+          <label class="form-label" data-lang-inline="en">Last name</label>
+          <input type="text" class="form-input" placeholder="Esteve">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-input" placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label" data-lang-inline="es">Teléfono</label>
+        <label class="form-label" data-lang-inline="en">Phone</label>
+        <input type="tel" class="form-input" placeholder="+34 600 000 000">
+      </div>
+      <div class="form-group">
+        <label class="form-label" data-lang-inline="es">Modelo de interés</label>
+        <label class="form-label" data-lang-inline="en">Model of interest</label>
+        <select class="form-select">
+          <option value="" data-lang-inline="es">Seleccionar modelo</option>
+          <option value="" data-lang-inline="en">Select model</option>
+          <option>AEVUM APEX — Berlina · desde 78.900 €</option>
+          <option>AEVUM VEGA — SUV · desde 96.500 €</option>
+          <option>AEVUM SOL — Sport Coupé · desde 134.000 €</option>
+        </select>
+      </div>
+      <div class="form-group form-submit">
+        <button class="btn-primary" style="width: 100%; cursor: none;">
+          <span data-lang-inline="es">Enviar reserva →</span>
+          <span data-lang-inline="en">Submit reservation →</span>
+        </button>
+      </div>
+      <p class="form-note" data-lang-inline="es">Al enviar, aceptas nuestra Política de Privacidad. El depósito se procesa de forma segura y es reembolsable en cualquier momento.</p>
+      <p class="form-note" data-lang-inline="en">By submitting, you agree to our Privacy Policy. The deposit is processed securely and refundable at any time.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">AE<span>V</span>UM</div>
+      <p class="footer-tagline" data-lang-inline="es">Vehículos eléctricos de lujo diseñados y construidos en España para el mercado global.</p>
+      <p class="footer-tagline" data-lang-inline="en">Luxury electric vehicles designed and built in Spain for the global market.</p>
+    </div>
+    <div>
+      <p class="footer-col-title" data-lang-inline="es">Vehículos</p>
+      <p class="footer-col-title" data-lang-inline="en">Vehicles</p>
+      <ul class="footer-links">
+        <li><a href="#">AEVUM APEX</a></li>
+        <li><a href="#">AEVUM VEGA</a></li>
+        <li><a href="#">AEVUM SOL</a></li>
+        <li><a href="#" data-lang-inline="es">Próximos modelos</a><a href="#" data-lang-inline="en">Upcoming models</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title" data-lang-inline="es">Empresa</p>
+      <p class="footer-col-title" data-lang-inline="en">Company</p>
+      <ul class="footer-links">
+        <li><a href="#" data-lang-inline="es">Sobre AEVUM</a><a href="#" data-lang-inline="en">About AEVUM</a></li>
+        <li><a href="#" data-lang-inline="es">Tecnología</a><a href="#" data-lang-inline="en">Technology</a></li>
+        <li><a href="#" data-lang-inline="es">Sostenibilidad</a><a href="#" data-lang-inline="en">Sustainability</a></li>
+        <li><a href="#" data-lang-inline="es">Empleo</a><a href="#" data-lang-inline="en">Careers</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title" data-lang-inline="es">Contacto</p>
+      <p class="footer-col-title" data-lang-inline="en">Contact</p>
+      <ul class="footer-links">
+        <li><a href="#">contacto@aevum.es</a></li>
+        <li><a href="#">+34 963 000 000</a></li>
+        <li><a href="#" data-lang-inline="es">Showroom Valencia</a><a href="#" data-lang-inline="en">Valencia Showroom</a></li>
+        <li><a href="#" data-lang-inline="es">Showroom Madrid</a><a href="#" data-lang-inline="en">Madrid Showroom</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2025 AEVUM Automotive S.L. — Valencia, España</p>
+    <div class="footer-legal">
+      <a href="#" data-lang-inline="es">Privacidad</a>
+      <a href="#" data-lang-inline="en">Privacy</a>
+      <a href="#" data-lang-inline="es">Legal</a>
+      <a href="#" data-lang-inline="en">Legal</a>
+      <a href="#" data-lang-inline="es">Cookies</a>
+      <a href="#" data-lang-inline="en">Cookies</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
